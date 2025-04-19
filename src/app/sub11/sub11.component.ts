@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { IonContent, IonText } from "@ionic/angular/standalone";
+import { Component } from '@angular/core';
+import {RouterLink} from '@angular/router';
+import {mainlist} from '../main/mainlist';
+import { IonImg, IonContent, IonText } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-sub11',
+  imports: [IonText, IonContent, IonImg,RouterLink],
   templateUrl: './sub11.component.html',
-  styleUrls: ['./sub11.component.scss'],
+  styleUrl: './sub11.component.css'
 })
-export class Sub11Component  implements OnInit {
 
-  constructor() { }
+export class Sub11Component {
 
-  ngOnInit() {}
-
+  protected readonly mainlist = mainlist;
 }

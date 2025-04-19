@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
 
 import { Sub12Component } from './sub12.component';
 
@@ -9,8 +8,7 @@ describe('Sub12Component', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ Sub12Component ],
-      imports: [IonicModule.forRoot()]
+      imports: [Sub12Component],
     }).compileComponents();
 
     fixture = TestBed.createComponent(Sub12Component);

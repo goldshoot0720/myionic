@@ -5,12 +5,11 @@ import { IonImg, IonContent, IonText } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-sub10',
-  imports: [IonText, IonContent, IonImg,
-    RouterLink
-  ],
+  imports: [IonText, IonContent, IonImg,RouterLink],
   templateUrl: './sub10.component.html',
   styleUrl: './sub10.component.css'
 })
+
 export class Sub10Component {
 
   protected readonly mainlist = mainlist;

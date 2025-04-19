@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { IonApp, IonRouterOutlet, IonContent, IonTabs, IonTabBar, IonIcon, IonTabButton, IonLabel } from '@ionic/angular/standalone';
-import {MainComponent} from './main/main.component';
+import { IonApp, IonRouterOutlet} from '@ionic/angular/standalone';
 import { StatusBar, Style } from '@capacitor/status-bar';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  imports: [IonLabel, IonTabButton, IonIcon, IonTabBar, IonTabs, IonApp, IonRouterOutlet,IonContent, MainComponent],
+  imports: [IonApp, IonRouterOutlet],
   standalone: true,
   styleUrls: ['app.component.scss'],
 })

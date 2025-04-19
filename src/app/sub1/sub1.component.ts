@@ -5,7 +5,7 @@ import { IonButton, IonContent, IonImg, IonText, IonLoading, IonTitle, IonToolba
 
 @Component({
   selector: 'app-sub1',
-  imports: [IonHeader, IonToolbar, IonTitle, IonLoading, IonText, IonImg, IonContent, IonButton,
+  imports: [IonText, IonImg, IonContent, IonButton,
     RouterLink
   ],
   templateUrl: './sub1.component.html',
