@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import {RouterLink} from "@angular/router";
 import {mainlist} from "../main/mainlist";
-import { IonButton, IonContent, IonImg, IonText, IonLoading } from "@ionic/angular/standalone";
+import { IonButton, IonContent, IonImg, IonText, IonLoading, IonTitle, IonToolbar, IonHeader } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-sub1',
-  imports: [IonLoading, IonText, IonImg, IonContent, IonButton,
+  imports: [IonHeader, IonToolbar, IonTitle, IonLoading, IonText, IonImg, IonContent, IonButton,
     RouterLink
   ],
   templateUrl: './sub1.component.html',
