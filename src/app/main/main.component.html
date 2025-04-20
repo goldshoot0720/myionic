@@ -1,47 +1,112 @@
 <ion-content>
+  <div id="top"></div>
 
-  <ion-img [src]="mainlist[0].img" [alt]="mainlist[0].alt" ></ion-img>
+  <!-- 圖片與按鈕區塊1 -->
+  <ion-row>
+    <ion-col>
+      <img [src]="mainlist[0].img" [alt]="mainlist[0].alt">
+    </ion-col>
+  </ion-row>
 
-      <ion-button routerLink="/sub1" fill="true">
-        <ion-img [src]="mainlist[1].img" [alt]="mainlist[1].alt" ></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub2" fill="true">
-        <ion-img [src]="mainlist[2].img" [alt]="mainlist[2].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub3" fill="true">
-        <ion-img [src]="mainlist[3].img" [alt]="mainlist[3].alt"></ion-img>
-      </ion-button>
+  <ion-row>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub1">
+        <img [src]="mainlist[1].img" [alt]="mainlist[1].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub2">
+        <img [src]="mainlist[2].img" [alt]="mainlist[2].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub3">
+        <img [src]="mainlist[3].img" [alt]="mainlist[3].alt">
+      </button>
+    </ion-col>
+  </ion-row>
 
-      <ion-button routerLink="/sub4" fill="true">
-        <ion-img [src]="mainlist[4].img" [alt]="mainlist[4].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub5" fill="true">
-        <ion-img [src]="mainlist[5].img" [alt]="mainlist[5].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub6" fill="true">
-        <ion-img [src]="mainlist[6].img" [alt]="mainlist[6].alt"></ion-img>
-      </ion-button>
+  <ion-row>
+    <ion-col>
+      <img [src]="mainlist[0].img" [alt]="mainlist[0].alt">
+    </ion-col>
+  </ion-row>
 
-      <ion-button routerLink="/sub7" fill="true">
-        <ion-img [src]="mainlist[7].img" [alt]="mainlist[7].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub8" fill="true">
-        <ion-img [src]="mainlist[8].img" [alt]="mainlist[8].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub9" fill="true">
-        <ion-img [src]="mainlist[9].img" [alt]="mainlist[9].alt"></ion-img>
-      </ion-button>
+  <!-- 圖片與按鈕區塊2 -->
+  <ion-row>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub4">
+        <img [src]="mainlist[4].img" [alt]="mainlist[4].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub5">
+        <img [src]="mainlist[5].img" [alt]="mainlist[5].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub6">
+        <img [src]="mainlist[6].img" [alt]="mainlist[6].alt">
+      </button>
+    </ion-col>
+  </ion-row>
 
-      <ion-button routerLink="/sub10" fill="true">
-        <ion-img [src]="mainlist[10].img" [alt]="mainlist[10].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub11" fill="true">
-        <ion-img [src]="mainlist[11].img" [alt]="mainlist[11].alt"></ion-img>
-      </ion-button>
-      <ion-button routerLink="/sub12" fill="true">
-        <ion-img [src]="mainlist[12].img" [alt]="mainlist[12].alt"></ion-img>
-      </ion-button>
+  <ion-row>
+    <ion-col>
+      <img [src]="mainlist[0].img" [alt]="mainlist[0].alt">
+    </ion-col>
+  </ion-row>
 
-  <ion-button routerLink="/sub0">登入</ion-button>
+  <!-- 圖片與按鈕區塊3 -->
+  <ion-row>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub7">
+        <img [src]="mainlist[7].img" [alt]="mainlist[7].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub8">
+        <img [src]="mainlist[8].img" [alt]="mainlist[8].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub9">
+        <img [src]="mainlist[9].img" [alt]="mainlist[9].alt">
+      </button>
+    </ion-col>
+  </ion-row>
 
+  <ion-row>
+    <ion-col>
+      <img [src]="mainlist[0].img" [alt]="mainlist[0].alt">
+    </ion-col>
+  </ion-row>
+
+  <!-- 圖片與按鈕區塊4 -->
+  <ion-row>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub10">
+        <img [src]="mainlist[10].img" [alt]="mainlist[10].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub11">
+        <img [src]="mainlist[11].img" [alt]="mainlist[11].alt">
+      </button>
+    </ion-col>
+    <ion-col size="4" size-md="4">
+      <button routerLink="/sub12">
+        <img [src]="mainlist[12].img" [alt]="mainlist[12].alt">
+      </button>
+    </ion-col>
+  </ion-row>
+
+  <!-- 登入按鈕 -->
+  <ion-row>
+    <ion-col>
+      <button routerLink="/sub0" type="button">登入</button>
+    </ion-col>
+  </ion-row>
+
+  <div id="bottom"></div>
 </ion-content>

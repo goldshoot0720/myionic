@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { mainlist } from '../main/mainlist';
 import { createClient } from '@supabase/supabase-js'
 import { FormsModule } from '@angular/forms';
+import { IonButton, IonItem, IonLabel, IonContent } from "@ionic/angular/standalone";
 
 const supabaseUrl = 'https://lgztvgybalhvppkfpwdc.supabase.co'
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxnenR2Z3liYWxodnBwa2Zwd2RjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQzNDkwMTQsImV4cCI6MjA1OTkyNTAxNH0.JfB6J38LmdlvUwIgkdRmQcBDnv6OzFaA-D27S0ylVnA'
@@ -11,7 +12,7 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 @Component({
   selector: 'app-sub0',
   standalone: true,
-  imports: [RouterLink,FormsModule],
+  imports: [IonContent, IonLabel, IonItem, IonButton, RouterLink,FormsModule],
   templateUrl: './sub0.component.html',
   styleUrls: ['./sub0.component.css']
 })

@@ -1,0 +1,38 @@
+/* 手機版樣式 */
+@media (max-width: 768px) {
+  ion-row {
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+
+  ion-col {
+    text-align: center;
+  }
+
+  ion-col img {
+    width: 80%; /* 圖片縮小為 80% 寬度 */
+    margin: 10px 0; /* 增加間距 */
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+/* 大螢幕樣式 */
+@media (min-width: 769px) {
+  ion-col img {
+    width: 100%; /* 圖片全寬顯示 */
+  }
+
+  button {
+    width: auto;
+  }
+}

@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import {RouterLink} from "@angular/router";
 import { mainlist } from './mainlist';
-import { IonContent, IonItem, IonButton, IonRow, IonGrid, IonImg, IonCol } from "@ionic/angular/standalone";
+import { IonContent, IonImg, IonCol, IonRow } from "@ionic/angular/standalone";
 
 @Component({
   selector: 'app-main',
-    imports: [ IonImg, IonButton, IonContent,
+    imports: [IonRow, IonCol, IonImg, IonContent,
         RouterLink
     ],
   templateUrl: './main.component.html',

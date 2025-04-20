@@ -1,0 +1,23 @@
+/* 手機版樣式 */
+@media (max-width: 768px) {
+  ion-item {
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+
+  ion-input,
+  ion-button {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  ion-button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
